@@ -1,6 +1,7 @@
-function takeANumber(daLine, pName){
-  daLine.push(pName);
-  return `Welcome, ${pName}. You are number ${daLine.length} in line.`;
+function takeANumber(){
+  var daLine = [];
+  daLine.push('person');
+  return `You are number ${daLine.length}.`;
 }
 
 function nowServing(theLine){
